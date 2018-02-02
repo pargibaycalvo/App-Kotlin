@@ -8,7 +8,8 @@ import android.view.ViewGroup
 
 //para acceder los objectos dentro del layout
 import kotlinx.android.synthetic.main.fragment_blank_a.*
-//para poder usar Anko y el toastç
+import kotlinx.android.synthetic.main.fragment_blank_b.*
+//para poder usar Anko y el toast
 import org.jetbrains.anko.support.v4.toast
 
 
@@ -32,8 +33,8 @@ class MainFragment : Fragment() {
             // https://github.com/Kotlin/anko
             // es necesario
             toast("Mensaje: ${main_editText.text}")
-            // mostramos en el TextView lo que introducimos en el EditText
-            main_textview.text = main_editText.text
+            // mostramos en el TextView  del (fragment_blank_b) lo que introducimos en el EditText del (fragment_blank_a)
+            main2_textview.text  = main_editText.text
         }
     }
 }
