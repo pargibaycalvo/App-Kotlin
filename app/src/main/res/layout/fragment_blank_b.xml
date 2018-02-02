@@ -10,13 +10,15 @@
 
     <TextView
         android:id="@+id/main2_textview"
-        android:layout_width="151dp"
-        android:layout_height="22dp"
-        android:layout_marginStart="116dp"
-        android:layout_marginTop="128dp"
+        android:layout_width="159dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="116dp"
         android:text="@string/hello_blank_fragment"
+        android:textSize="25dp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="116dp" />
+        android:layout_marginLeft="84dp" />
 
 </android.support.constraint.ConstraintLayout>
