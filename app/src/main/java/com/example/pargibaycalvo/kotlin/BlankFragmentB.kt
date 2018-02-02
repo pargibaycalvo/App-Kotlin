@@ -18,4 +18,6 @@ class MainFragment2 : Fragment() {
         return inflater?.inflate(R.layout.fragment_blank_b, container)
     }
 
+
+
 }
