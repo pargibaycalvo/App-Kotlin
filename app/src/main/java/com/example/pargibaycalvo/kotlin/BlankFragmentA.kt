@@ -36,6 +36,5 @@ class MainFragment : Fragment() {
             // mostramos en el TextView  del (fragment_blank_b) lo que introducimos en el EditText del (fragment_blank_a)
             main2_textview.text  = main_editText.text
         }
-
     }
 }
